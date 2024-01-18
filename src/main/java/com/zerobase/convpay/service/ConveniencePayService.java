@@ -34,6 +34,7 @@ public class ConveniencePayService { // 편결이
             return new PayResponse(PayResult.FAIL, 0);
         }
 
+
         //Success Case
         return new PayResponse(PayResult.SUCCESS, discountedAmount);
 
