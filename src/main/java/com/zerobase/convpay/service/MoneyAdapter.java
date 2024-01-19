@@ -1,7 +1,9 @@
 package com.zerobase.convpay.service;
 
 import com.zerobase.convpay.type.*;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MoneyAdapter implements PaymentInterface {
     //머니사용
     public MoneyUseResult use(Integer payAmount) {
